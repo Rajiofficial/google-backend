@@ -1,6 +1,6 @@
 
 const mongoose=require("mongoose")
-const Dburl='mongodb+srv://raji:ranjithraj@cluster0.aa9ahmk.mongodb.net/?retryWrites=true&w=majority'
+const Dburl='mongodb+srv://raji:ranjithraj@cluster0.aa9ahmk.mongodb.net/google-auth?retryWrites=true&w=majority'
 const connectionparams= {
     useNewUrlParser: true,
 }

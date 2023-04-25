@@ -11,14 +11,7 @@ app.use(express.json())
 app.use("/",router)
 
 connect()
-
-
-
-app.get('/',(req,res)=>{
-      res.status(200).send(student)
-  })
   
-
 // app.get('/:id',(req,res)=>{
 //   try{ 
 //   let id=req.params.id

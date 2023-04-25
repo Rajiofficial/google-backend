@@ -8,4 +8,6 @@ router.post("/register",async(req,res)=>{
     res.status(200).json(user)
 
 })
+
+
 module.exports.router=router
